@@ -26,8 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH=$PATH:~/bin/dotnet-sdk-8.0.100
-export PATH=$PATH:~/bin/node-v21.2.0-linux-x64/bin
+export PATH=$PATH:/usr/bin/dotnet-sdk-8.0.100
+export PATH=$PATH:/usr/bin/node-v21.2.0-linux-x64/bin
 
 desktop='/mnt/c/Users/Joe/Desktop'
 downloads='/mnt/c/Users/Joe/Downloads'
