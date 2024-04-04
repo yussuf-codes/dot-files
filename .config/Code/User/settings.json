@@ -1,0 +1,20 @@
+{
+    "editor.cursorBlinking": "solid",
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "files.hotExit": "off",
+    "terminal.integrated.fontSize": 20,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "window.restoreWindows": "none",
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.startupEditor": "none"
+}
