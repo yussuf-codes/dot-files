@@ -118,8 +118,8 @@ fi
 
 if [ -d ~/binaries/dotnet-sdk-8 ]
 then
-    PATH=$PATH:~/binaries/dotnet-sdk-8
+    export PATH=$PATH:~/binaries/dotnet-sdk-8
 fi
 
-desktop='/mnt/c/Users/Joe/Desktop'
-downloads='/mnt/c/Users/Joe/Downloads'
+export desktop='/mnt/c/Users/Joe/Desktop'
+export downloads='/mnt/c/Users/Joe/Downloads'
