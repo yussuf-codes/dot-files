@@ -2,8 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-alias root="ls -al /"
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -117,3 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+if [ -d ~/binaries/dotnet-sdk-8 ]
+then
+    PATH=$PATH:~/binaries/dotnet-sdk-8
+fi
+
+desktop='/mnt/c/Users/Joe/Desktop'
+downloads='/mnt/c/Users/Joe/Downloads'
