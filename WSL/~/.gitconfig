@@ -1,7 +1,3 @@
 [user]
 	name = yussuf-codes
 	email = yussuf.code@gmail.com
-[init]
-	defaultBranch = master
-[color]
-	ui = auto

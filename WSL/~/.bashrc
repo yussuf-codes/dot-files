@@ -59,7 +59,7 @@ fi
 if [ "$color_prompt" = yes ]; then
     PS1='${debian_chroot:+($debian_chroot)}\[\e[92m\][ \u@\h ] - [ \w ] \$\[\e[0m\] '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\e[39m[ \u@\h ] - [ \w ] \$\e[0m '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -116,9 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -d ~/binaries/dotnet-sdk-8 ]
-then
-    export PATH=$PATH:~/binaries/dotnet-sdk-8
+if [ -d ~/binaries/dotnet/sdks ]; then
+    export PATH=$PATH:~/binaries/dotnet/sdks/dotnet-sdk-8.0.300-linux-x64
 fi
 
 export desktop='/mnt/c/Users/Joe/Desktop'
