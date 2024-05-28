@@ -9,7 +9,7 @@
         "**/obj": true
     },
     "files.hotExit": "off",
-    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.fontSize": 22,
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
     "window.restoreWindows": "none",
