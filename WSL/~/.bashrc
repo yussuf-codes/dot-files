@@ -116,8 +116,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -d ~/binaries/dotnet/sdks ]; then
-    export PATH=$PATH:~/binaries/dotnet/sdks/dotnet-sdk-8.0.300-linux-x64
+if [ -d ~/bin/node ]; then
+    export PATH=$PATH:$HOME/bin/node/node-v20.14.0-linux-x64/bin
+fi
+
+if [ -d ~/bin/dotnet/sdks ]; then
+    export PATH=$PATH:$HOME/bin/dotnet/sdks/dotnet-sdk-8.0.300-linux-x64:$HOME/.dotnet/tools
+    export DOTNET_ROOT=$HOME/bin/dotnet/sdks/dotnet-sdk-8.0.300-linux-x64
 fi
 
 export desktop='/mnt/c/Users/Joe/Desktop'
