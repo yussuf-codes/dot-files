@@ -1,0 +1,19 @@
+{
+    "Windows": [
+        "Code Spell Checker",
+        "Material Icon Theme",
+        "Material Product Icons",
+        "Path Intellisense",
+        "Trailing Spaces",
+        "Remote - SSH",
+        "WSL"
+    ],
+    "WSL": [
+        "C/C++",
+        "C# Dev Kit",
+        "Code Spell Checker",
+        "Path Intellisense",
+        "Python",
+        "Trailing Spaces"
+    ]
+}
