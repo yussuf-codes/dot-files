@@ -1,8 +1,10 @@
 {
 	"breadcrumbs.enabled": false,
 	"editor.cursorBlinking": "solid",
+	"editor.cursorStyle": "block",
 	"editor.fontSize": 18,
 	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "trailing",
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.stickyScroll.enabled": false,
 	"files.exclude": {
@@ -15,9 +17,9 @@
 	"window.menuBarVisibility": "toggle",
 	"window.restoreWindows": "none",
 	"workbench.activityBar.location": "top",
-	"workbench.colorTheme": "Default High Contrast",
 	"workbench.editor.untitled.labelFormat": "name",
-	"workbench.iconTheme": "vs-minimal",
-	"workbench.startupEditor": "newUntitledFile",
-	"workbench.layoutControl.enabled": false
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.layoutControl.enabled": false,
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.startupEditor": "newUntitledFile"
 }

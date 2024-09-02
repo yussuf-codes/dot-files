@@ -16,7 +16,7 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=500
+HISTSIZE=1000
 HISTFILESIZE=-1
 
 # check the window size after each command and, if necessary,
@@ -59,7 +59,7 @@ fi
 if [ "$color_prompt" = yes ]; then
     PS1='\[\e[92m\][ \u@\h ] - [ \w ] - [ $? ] \$\[\e[0m\] '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='[ \u@\h ] - [ \w ] - [ $? ] \$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -116,14 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -d ~/bin/node ]; then
-    export PATH=$PATH:$HOME/bin/node/node-v20.14.0-linux-x64/bin
-fi
-
-if [ -d ~/bin/dotnet/sdks ]; then
-    export PATH=$PATH:$HOME/bin/dotnet/sdks/dotnet-sdk-8.0.300-linux-x64:$HOME/.dotnet/tools
-    export DOTNET_ROOT=$HOME/bin/dotnet/sdks/dotnet-sdk-8.0.300-linux-x64
-fi
+alias c='clear'
 
 export desktop='/mnt/c/Users/Joe/Desktop'
 export downloads='/mnt/c/Users/Joe/Downloads'
+
+if [ -d $HOME/bin/dotnet-sdk-8-linux-x64 ]; then
+    export DOTNET_ROOT=$HOME/bin/dotnet-sdk-8-linux-x64
+    export PATH=$PATH:$HOME/bin/dotnet-sdk-8-linux-x64:$HOME/.dotnet/tools
+fi
