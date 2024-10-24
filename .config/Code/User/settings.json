@@ -1,5 +1,6 @@
 {
 	"breadcrumbs.enabled": false,
+	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "solid",
 	"editor.cursorStyle": "block",
 	"editor.fontSize": 18,
