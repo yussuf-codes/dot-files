@@ -50,9 +50,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\e[92m\][ \u@\h ] - [ \w ] - [ $? ] \$\[\e[0m\] '
+    PS1='\[\e[92m\][ \u@\h ] - [ \w ] - [ $? ] \$ >\[\e[0m\] '
 else
-    PS1='[ \u@\h ] - [ \w ] - [ $? ] \$ '
+    PS1='[ \u@\h ] - [ \w ] - [ $? ] \$ > '
 fi
 unset color_prompt force_color_prompt
 

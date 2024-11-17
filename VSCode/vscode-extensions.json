@@ -9,7 +9,9 @@
     "WSL": [
         "C# Dev Kit",
         "Code Spell Checker",
+        "Git Graph",
         "Path Intellisense",
-        "Python"
+        "Python",
+        "REST Client"
     ]
 }

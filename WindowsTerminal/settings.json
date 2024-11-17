@@ -14,7 +14,9 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "closeTab",
+            "command": {
+                "action": "closeTab"
+            },
             "keys": "ctrl+w"
         }
     ],
@@ -24,21 +26,21 @@
     "profiles": {
         "defaults": {
             "colorScheme": "Vintage",
-            "cursorShape": "filledBox",
+            "cursorShape": "vintage",
             "font": {
                 "face": "Consolas",
-                "size": 18.0,
+                "size": 18,
                 "weight": "semi-bold"
             },
             "hidden": false,
             "intenseTextStyle": "bright",
             "padding": "10",
-            "tabColor": "#000000",
-            "scrollbarState": "hidden"
+            "scrollbarState": "hidden",
+            "tabColor": "#000000"
         },
         "list": [
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "startingDirectory": "C:\\Users\\Joe\\Desktop"
@@ -55,35 +57,12 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
+                "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
                 "name": "Ubuntu 24.04 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
             }
         ]
     },
-    "schemes": [
-        {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#000080",
-            "brightBlack": "#808080",
-            "brightBlue": "#0000FF",
-            "brightCyan": "#00FFFF",
-            "brightGreen": "#00FF00",
-            "brightPurple": "#FF00FF",
-            "brightRed": "#FF0000",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFF00",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#008080",
-            "foreground": "#C0C0C0",
-            "green": "#008000",
-            "name": "Vintage",
-            "purple": "#800080",
-            "red": "#800000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#C0C0C0",
-            "yellow": "#808000"
-        }
-    ]
+    "schemes": [],
+    "themes": []
 }

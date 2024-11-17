@@ -2,7 +2,6 @@
 	"breadcrumbs.enabled": false,
 	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "solid",
-	"editor.cursorStyle": "block",
 	"editor.fontSize": 18,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "trailing",
@@ -19,8 +18,6 @@
 	"window.restoreWindows": "none",
 	"workbench.activityBar.location": "top",
 	"workbench.editor.untitled.labelFormat": "name",
-	"workbench.iconTheme": "material-icon-theme",
 	"workbench.layoutControl.enabled": false,
-	"workbench.productIconTheme": "material-product-icons",
 	"workbench.startupEditor": "newUntitledFile"
 }

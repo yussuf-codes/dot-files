@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\e[92m\][ \u@\h ] - [ \w ] - [ $? ] \$\[\e[0m\] '
+    PS1='\[\e[92m\][ \u@\h ] - [ \w ] - [ $? ] \$ >\[\e[0m\] '
 else
-    PS1='[ \u@\h ] - [ \w ] - [ $? ] \$ '
+    PS1='[ \u@\h ] - [ \w ] - [ $? ] \$ > '
 fi
 unset color_prompt force_color_prompt
 
@@ -120,6 +120,10 @@ alias c='clear'
 
 export desktop='/mnt/c/Users/Joe/Desktop'
 export downloads='/mnt/c/Users/Joe/Downloads'
+
+export github_personal_access_token='<token>'
+alias ghp='echo $github_personal_access_token'
+
 
 if [ -d $HOME/bin/dotnet-sdk-8-linux-x64 ]; then
     export DOTNET_ROOT=$HOME/bin/dotnet-sdk-8-linux-x64
