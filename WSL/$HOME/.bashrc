@@ -122,10 +122,11 @@ export desktop='/mnt/c/Users/Joe/Desktop'
 export downloads='/mnt/c/Users/Joe/Downloads'
 
 export github_personal_access_token='<token>'
-alias ghp='echo $github_personal_access_token'
-
 
 if [ -d $HOME/bin/dotnet-sdk-8-linux-x64 ]; then
     export DOTNET_ROOT=$HOME/bin/dotnet-sdk-8-linux-x64
     export PATH=$PATH:$HOME/bin/dotnet-sdk-8-linux-x64:$HOME/.dotnet/tools
 fi
+
+alias activenv='source ./.venv/bin/activate'
+alias ghp='echo $github_personal_access_token'
