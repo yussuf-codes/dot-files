@@ -1,0 +1,17 @@
+{
+	"Windows": [
+		"Code Spell Checker",
+		"Material Icon Theme",
+		"Material Product Icons",
+		"Path Intellisense",
+		"WSL"
+	],
+	"WSL": [
+		"C# Dev Kit",
+		"Code Spell Checker",
+		"Git Graph",
+		"Path Intellisense",
+		"Python",
+		"REST Client"
+	]
+}
