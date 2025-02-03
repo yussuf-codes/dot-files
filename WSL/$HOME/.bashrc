@@ -116,8 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias c='clear'
-
 export desktop='/mnt/c/Users/Joe/Desktop'
 export downloads='/mnt/c/Users/Joe/Downloads'
 

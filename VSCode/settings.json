@@ -3,6 +3,7 @@
 	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "solid",
 	"editor.fontSize": 18,
+	"editor.formatOnSave": true,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "trailing",
 	"editor.scrollbar.horizontal": "hidden",
@@ -12,6 +13,7 @@
 		"**/obj": true
 	},
 	"files.hotExit": "off",
+	"files.insertFinalNewline": true,
 	"terminal.integrated.fontSize": 22,
 	"window.commandCenter": false,
 	"window.menuBarVisibility": "toggle",
