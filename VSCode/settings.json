@@ -18,8 +18,9 @@
 	"window.commandCenter": false,
 	"window.menuBarVisibility": "toggle",
 	"window.restoreWindows": "none",
-	"workbench.activityBar.location": "top",
 	"workbench.editor.untitled.labelFormat": "name",
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.layoutControl.enabled": false,
+	"workbench.productIconTheme": "material-product-icons",
 	"workbench.startupEditor": "newUntitledFile"
 }
