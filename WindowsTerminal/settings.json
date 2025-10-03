@@ -9,16 +9,12 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+v"
         },
         {
-            "id": "Terminal.DuplicatePaneAuto",
-            "keys": "alt+shift+d"
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "Terminal.ClosePane",
@@ -26,40 +22,57 @@
         }
     ],
     "launchMode": "maximized",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": {
         "defaults": {
             "colorScheme": "Vintage",
             "cursorShape": "vintage",
             "font": {
                 "face": "Consolas",
-                "size": 18,
+                "size": 20,
                 "weight": "semi-bold"
             },
-            "hidden": false,
             "intenseTextStyle": "bright",
             "padding": "10",
             "scrollbarState": "hidden",
-            "startingDirectory": "C:\\Users\\Joe\\Desktop",
             "tabColor": "#000000"
         },
         "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "startingDirectory": "C:\\Users\\Joe\\Desktop"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "Command Prompt"
+                "name": "Command Prompt",
+                "startingDirectory": "C:\\Users\\Joe\\Desktop"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{a8260181-84e1-5d2c-9f12-ce5ba47a732d}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{41514fb6-1974-58d6-99f1-e98081f3ec7c}",
+                "hidden": false,
+                "name": "FedoraLinux-42",
+                "source": "Microsoft.WSL"
             }
         ]
     },
-    "schemes": [],
-    "themes": []
+    "schemes": []
 }
